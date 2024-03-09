@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="olx1.css">
+    <title>olx</title>
+</head>
+
+<body>
+
+
+
+    <!-- ================================================== * Navbar * ========================================= -->
+
+
+    <div class="hedder">
+        <div class="navbar">
+            <img src="image/img1.png" alt="">
+
+
+            <div class="contry_select" id="contry">
+                <div class="select">
+                    <p id="text"> Select your contry</p>
+                    <i class="fa-solid fa-chevron-down" id="moving"></i>
+
+                </div>
+                <ul class="option_box" id="list">
+                    <li class="option" onclick="myfunction('USA')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>USA</p>
+
+                    </li>
+                    <li class="option" onclick="myfunction('India')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>India</p>
+
+                    </li>
+                    <li class="option" onclick="myfunction('Canada')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Canada</p>
+
+                    </li>
+                    <li class="option" onclick="myfunction('Pakistan')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Pakistan</p>
+
+                    </li>
+                    <li class="option" onclick="myfunction('New York')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>New York</p>
+
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="search_box">
+                <input type="text" class="searchclass" id="searchid"
+                    placeholder=" Find Cars, Mobiles Phones and More .......">
+
+                <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
+
+            </div>
+
+
+
+
+            <div class="language">
+                <p class="eng_tag"> English</p>
+                <ul class="hin_eng">
+                    <li onclick="languageolx('English')"> English </li>
+                    <li onclick="languageolx('हिंदी')"> हिंदी </li>
+
+
+                </ul>
+            </div>
+
+
+
+
+            <div class="messeage">
+
+                <i class="fa-regular fa-comment"></i>
+
+            </div>
+
+
+            <div class="messeage">
+
+                <i class="fa-regular fa-bell"></i>
+
+
+            </div>
+
+
+
+            <div class="your_logo">
+                <div class="girl_img" id="girl_img_id">
+
+                    <img src="image/pic3.jpg">
+                </div>
+
+
+                <div class="dropdown" id="dropdownid">
+
+                    <div class="nameandimg">
+                        <img src="image/pic3.jpg">
+                        <p> Puja Varma </p>
+
+                    </div>
+
+                    <ul>
+
+                        <li>
+                            <i class="fa-regular fa-user"></i>
+                            <p>My Acccount</p>
+
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-box"></i>
+                            <p>My Orders</p>
+
+                        </li>
+                        <hr>
+
+                        <li>
+                            <i class="fa-sharp fa-regular fa-circle-question"></i>
+                            <p>Help</p>
+
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-gear"></i>
+                            <p>Setting</p>
+
+                        </li>
+
+                        <hr>
+
+                        <li>
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            <p>Log Out</p>
+
+                        </li>
+
+
+
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+            <div class="selling_page">
+                <button>
+                    <i class="fa-sharp fa-solid fa-plus"></i>
+                    <p>SELL</p>
+                </button>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- ================================================== * ad 1 * ========================================= -->
+
+
+
+    <div class="ads_img1">
+
+        <img src="image/product-22.webp">
+        <i class="fa-sharp fa-regular fa-rectangle-xmark" id="ad_icon"></i>
+
+    </div>
+
+
+
+
+
+
+    <!-- ================================================== * product * ========================================= -->
+
+
+    <div class="product">
+        <div class="First_row">
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-16.jpg">
+                <h2>₹2,500</h2>
+                <p> Gym ,Iron playts and Bumbble</p>
+                <div class="address_data">
+                    <p>Dhanbad sastri nagar</p>
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                <img src="image/product-4.jpg">
+                <h2>₹2,000,000</h2>
+                <p>Audi Q5</p>
+                <div class="address_data">
+                    <p>Bandra west , Mumbai</p>
+                    <p>Today</p>
+                </div>
+            </a>
+
+            </div>
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-6.jpg">
+                <h2>₹500</h2>
+                <p>Carom bord </p>
+                <div class="address_data">
+                    <p> B-53, Main Road, Kalkaji , Delhi</p>
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-15.jpg">
+                <h2>₹1,500</h2>
+                <p>Titen Watch </p>
+                <div class="address_data">
+                    <p>532, 532, 3 Main, Mathikere, Bangalore</p>
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="First_row">
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-11.jpg">
+                <h2>₹900</h2>
+                <p>Addedas Shoes</p>
+                <div class="address_data">
+                    <p> Flat No 301 , Hyderabad</p>
+
+
+                    <p>Today</p>
+                </div>
+                  </a>
+            </div>
+            <div class="box">
+                <a href="">
+
+                <img src="image/product-2.jpg">
+                <h2>₹1,300</h2>
+                <p>TV Gaming Remote</p>
+                <div class="address_data">
+                    <p>Bhuneswar , Odisa</p>
+                    <p>Today</p>
+                </div>
+                  </a>
+            </div>
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-5.jpg">
+                <h2>₹400</h2>
+                <p>Jines</p>
+                <div class="address_data">
+                    <p>Cb 105, Ring Road , Delh</p>
+
+
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-10.jpg">
+                <h2>₹7,500</h2>
+                <p>Washing machine</p>
+                <div class="address_data">
+                    <p>Merchant Chamber, Vadodara</p>
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="First_row">
+            <div class="box">
+                <a href="#">
+                <img src="image/product-3.jpg">
+                <h2>₹5,500</h2>
+                <p> 3 Star , Refrigerator</p>
+                <div class="address_data">
+                    <p>  Rajouri Garden, Delhi</p>
+
+
+                    <p>Today</p>
+                </div>
+            </a>
+
+            </div>
+            <div class="box">
+                <a href="#">
+                <img src="image/product-12.jpg">
+                <h2>₹9,800</h2>
+                <p>sofas</p>
+                <div class="address_data">
+                    <p> Mirzapur Road , Ahmedabad</p>
+
+                    <p>Today</p>
+                </div>
+            </a>
+
+            </div>
+            <div class="box">
+                <a href="#"></a>
+
+                <img src="image/product-7.jpg">
+                <h2>₹1,200</h2>
+                <p>Patron Earbuds</p>
+                <div class="address_data">
+                    <p> Charni Road , Mumbai</p>
+
+                    <p>Today</p>
+                </div>
+
+            </div>
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-14.jpg">
+                <h2>₹15,500</h2>
+                <p>Dining Table</p>
+                <div class="address_data">
+                    <p>Bansilalpet , Hyderabad</p>
+
+
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="First_row">
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-13.jpg">
+                <h2>₹550,000</h2>
+                <p>Ford EcoSport</p>
+                <div class="address_data">
+                    <p> Chowringhee Lane,Kolkata</p>
+
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-9.jpg">
+                <h2>₹2,500</h2>
+                <p>Winter Jackets For Men</p>
+                <div class="address_data">
+                    <p> A-2, Udyog Nagar , Delhi</p>
+
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+            <div class="box">
+                <a href="product_olx.html">
+
+                <img src="image/product-1.jpg">
+                <h2>₹3,500</h2>
+                <p>Mi TV Stick</p>
+                <div class="address_data">
+                    <p>Bandra East , Mumbai</p>
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+            <div class="box">
+                <a href="#">
+
+                <img src="image/product-8.jpg">
+                <h2>₹3,500</h2>
+                <p>Nion Camera</p>
+                <div class="address_data">
+                    <p>Shop No 5, Indrapuri , Mumbai</p>
+
+
+                    <p>Today</p>
+                </div>
+            </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- ================================================== * lode more * ========================================= -->
+
+
+    <div class="Lode_more">
+        <button id="Lode_more_products"> Lode More</button>
+
+        <div class="Lode_more_prodects" id="Lode_more_prodects_id">
+            <div class="First_row">
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-16.jpg">
+                    <h2>₹2,500</h2>
+                    <p> Gym ,Iron playts and Bumbble</p>
+                    <div class="address_data">
+                        <p>Dhanbad sastri nagar</p>
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-4.jpg">
+                    <h2>₹2,000,000</h2>
+                    <p>Audi Q5</p>
+                    <div class="address_data">
+                        <p>Bandra west , Mumbai</p>
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-6.jpg">
+                    <h2>₹500</h2>
+                    <p>Carom bord </p>
+                    <div class="address_data">
+                        <p> B-53, Main Road, Kalkaji , Delhi</p>
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-15.jpg">
+                    <h2>₹1,500</h2>
+                    <p>Titen Watch </p>
+                    <div class="address_data">
+                        <p>532, 532, 3 Main, Mathikere, Bangalore</p>
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="First_row">
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-11.jpg">
+                    <h2>₹900</h2>
+                    <p>Addedas Shoes</p>
+                    <div class="address_data">
+                        <p>Omega Apts Flat No 301, Ameerpet , Hyderabad</p>
+
+
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-2.jpg">
+                    <h2>₹1,300</h2>
+                    <p>TV Gaming Remote</p>
+                    <div class="address_data">
+                        <p>Bhuneswar , Odisa</p>
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-5.jpg">
+                    <h2>₹400</h2>
+                    <p>Jines</p>
+                    <div class="address_data">
+                        <p>Cb 105, Ring Road , Delh</p>
+
+
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-10.jpg">
+                    <h2>₹7,500</h2>
+                    <p>Washing machine</p>
+                    <div class="address_data">
+                        <p>Merchant Chamber, Vadodara</p>
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="First_row">
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-3.jpg">
+                    <h2>₹5,500</h2>
+                    <p> 3 Star , Refrigerator</p>
+                    <div class="address_data">
+                        <p> F 129, Main Market, Rajouri Garden, Delhi</p>
+
+
+                        <p>Today</p>
+                    </div>
+                   </a>
+
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-12.jpg">
+                    <h2>₹9,800</h2>
+                    <p>sofas</p>
+                    <div class="address_data">
+                        <p> Dinbai Tower, Mirzapur Road , Ahmedabad</p>
+
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-7.jpg">
+                    <h2>₹1,200</h2>
+                    <p>Patron Earbuds</p>
+                    <div class="address_data">
+                        <p> Charni Road , Mumbai</p>
+
+                        <p>Today</p>
+                    </div>
+                    </a>
+
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-14.jpg">
+                    <h2>₹15,500</h2>
+                    <p>Dining Table</p>
+                    <div class="address_data">
+                        <p>Bansilalpet , Hyderabad</p>
+
+
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="First_row">
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-13.jpg">
+                    <h2>₹550,000</h2>
+                    <p>Ford EcoSport</p>
+                    <div class="address_data">
+                        <p> Chowringhee Lane,Kolkata</p>
+
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-9.jpg">
+                    <h2>₹2,500</h2>
+                    <p>Winter Jackets For Men</p>
+                    <div class="address_data">
+                        <p> A-2, Udyog Nagar , Delhi</p>
+
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-1.jpg">
+                    <h2>₹3,500</h2>
+                    <p>Mi TV Stick</p>
+                    <div class="address_data">
+                        <p>Bandra East , Mumbai</p>
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+
+                    <img src="image/product-8.jpg">
+                    <h2>₹3,500</h2>
+                    <p>Nion Camera</p>
+                    <div class="address_data">
+                        <p>Shop No 5, Indrapuri , Mumbai</p>
+
+
+                        <p>Today</p>
+                    </div>
+                </a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- ================================================== * ads 2 * ========================================= -->
+
+
+    <div class="ads_img2">
+
+        <img src="image/product-20.webp">
+        <i class="fa-sharp fa-regular fa-rectangle-xmark" id="adicon2"></i>
+
+    </div>
+
+
+    <!-- ================================================== * downlode * ========================================= -->
+
+
+    <div class="downlode_app">
+
+        <div class="downlode">
+            <img src="image/footar.jpg" class="images">
+            <div class="text">
+
+                <h1>TRY THE OLX APP</h1>
+                <P>Buy, sell and just about anything using<br>
+                    the app on your mobile.
+                </P>
+            </div>
+            <div class="downlode_store">
+                <p>GET YOUR TODAY</p>
+                <img src="image/play store.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- ================================================== * footer * ========================================= -->
+
+
+    <div class="Main_footer">
+        <div class="footer">
+            <div class="footer_box">
+                <h2>POPULAR LOCATIONS</h2>
+                <P>Kolkata</P>
+                <p>Mumbai</p>
+                <p>Chennai</p>
+                <p>Pune</p>
+            </div>
+            <div class="footer_box">
+                <h2>TRENDIING LOCATIONS</h2>
+                <P>Bhubnaeswar</P>
+                <p>Hyderabad</p>
+                <p>Chandigarh</p>
+                <p>Nashik</p>
+            </div>
+            <div class="footer_box">
+                <h2>ABOUT US</h2>
+                <P>About OLX Group</P>
+                <p>Careers</p>
+                <p>Contact Us</p>
+                <p>OLXPeople</p>
+            </div>
+            <div class="footer_box">
+                <h2>OLX</h2>
+                <P>Help</P>
+                <p>Sitemap</p>
+                <p>Legal & Privacy information </p>
+                <p>Blog</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+
+
+        //       ================================================== * Navbar * =========================================
+
+        let contry = document.getElementById('contry');
+        let moving = document.getElementById('moving');
+        let text = document.getElementById('text');
+        let list = document.getElementById('list');
+
+
+        contry.addEventListener('click', () => {
+
+            list.classList.toggle('hidden');
+            moving.classList.toggle('roted');
+        });
+
+        function myfunction(rohit) {
+            text.innerHTML = rohit;
+        }
+
+
+        let eng_tag = document.getElementById('eng_tag');
+        let hin_eng = document.querySelector('.hin_eng');
+        let language = document.querySelector('.language');
+
+
+
+        language.addEventListener('click', () => {
+            hin_eng.classList.toggle('display_div');
+
+        });
+
+
+        function languageolx(anyone) {
+            eng_tag.innerHTML = anyone;
+
+        }
+
+        let girl_img_id = document.getElementById('girl_img_id');
+        let dropdownid = document.getElementById('dropdownid');
+
+        girl_img_id.addEventListener('click', () => {
+
+            dropdownid.classList.toggle('block_div');
+
+        });
+
+
+
+
+        //  <!-- ================================================== * ad 1 * ========================================= -->
+
+        let ad_img = document.querySelector('.ad_img');
+        let ad_icon = document.getElementById('ad_icon');
+
+        ad_icon.addEventListenere('click', () => {
+
+            ad_img.style = 'display: none';
+
+        });
+
+
+        //  <!-- ================================================== * Lode more * ========================================= -->
+
+
+        let Lode_more_id = document.getElementById('Lode_more_id');
+        let Lode_more_prodects_id = document.getElementById('Lode_more_prodects_id');
+
+
+        Lode_more_id.addEventListener('click', () => {
+            Lode_more_prodects_id.style = 'display:block';
+            Lode_more_id.style = 'display:none';
+
+        });
+
+
+
+        // <!-- ================================================== * ads 2 * ========================================= -->
+
+
+        let adicon2 = document.getElementById('adicon2');
+        let ads_img2 = document.querySelector('.ads_img2');
+
+        adicon2.addEventListener('click', () => {
+            ads_img2.style = 'display: none';
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>
